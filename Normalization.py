@@ -5,7 +5,7 @@ import numpy as np
 讀取fulldataset進行正規化
 """
 
-input_file = "fulldataset.txt"
+input_file = "fullset.txt"
 
 data = []
 filenames = []

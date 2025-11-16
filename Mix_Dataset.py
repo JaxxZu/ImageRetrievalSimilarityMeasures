@@ -4,7 +4,7 @@ import os
 """
 
 folder = "removed_unuseful_column_data"
-output_file = "fulldataset.txt"
+output_file = "fullset_original.txt"
 
 files = [f for f in os.listdir(folder) if f.endswith(".txt")]
 files.sort()   # 依照檔名字母順序排序
