@@ -2,6 +2,7 @@ import os
 """
 根據已移除無用欄位之data，合併成一個完整的dataset
 """
+
 folder = "removed_unuseful_column_data"
 output_file = "fulldataset.txt"
 
