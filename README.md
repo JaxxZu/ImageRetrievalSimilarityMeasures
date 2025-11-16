@@ -5,14 +5,14 @@
 以每一個類別一檔案，一個類別有200張圖  
 50個類別，共10000張圖
 每圖有478個欄位  
-|欄位|內容|
-|:----:|:---:|
-|0-31欄| ColorStructure|
-|32-43欄| ColLayout|
-|44-79欄| RegionShape|
-|~80-335欄~| ~ScalableColor~|
-|336-397欄| HomogeneousTexture|
-|398-477欄| EdgeHistogram|  
+|欄位|內容|備註|
+|:----:|:---:|:---:|
+|0-31欄| ColorStructure| |
+|32-43欄| ColLayout| |
+|44-79欄| RegionShape| |
+|~80-335欄~| ~ScalableColor~|原data檔為全0，無需理會這些欄位|
+|336-397欄| HomogeneousTexture| |
+|398-477欄| EdgeHistogram| |  
 
 請將檔案分成正規化(以欄為單位)與非正規化兩種 
 讀取特徵檔案，用每一張圖當Query Image，去搜尋fnormal.txt或unformal.txt，取最像的前10名，結果不能含Query自己，計算準確率  
