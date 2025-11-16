@@ -25,8 +25,8 @@
 ## 成員分工
 |成員|分工|
 |:----:|:---:|
-| [@Rex0626](https://github.com/yieie)|Cosine Similarity部分 |
-| [@Cecilia1050300](https://github.com/yieie) |Euclidean Distance部分 |
+| [@Rex0626](https://github.com/Rex0626)|Cosine Similarity部分 |
+| [@Cecilia1050300](https://github.com/Cecilia1050300) |Euclidean Distance部分 |
 | [@JaxxZu](https://github.com/JaxxZu) |PCC部分 |
 | [@yieie](https://github.com/yieie) |檢索系統 |
 
