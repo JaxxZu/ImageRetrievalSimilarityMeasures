@@ -10,7 +10,7 @@
 |0-31欄| ColorStructure|
 |32-43欄| ColLayout|
 |44-79欄| RegionShape|
-|80-335欄| ScalableColor|
+|~80-335欄~| ~ScalableColor~|
 |336-397欄| HomogeneousTexture|
 |398-477欄| EdgeHistogram|  
 
