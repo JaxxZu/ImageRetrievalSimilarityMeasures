@@ -22,9 +22,8 @@
 使用者可選擇是否正規化，與相似度比對方法，送出查詢  
 系統會執行比對程式，挑出最像10名，回傳  
 
-## 檔案說明
+## 正規化
 <img width="600px" src="readme/Normalization.svg"/>  
-
 
 ### Remove_Unuseful_Column.py
 移除原dataset中無用的欄位，僅保留特徵、檔案名、類別名，分別保存到`removed_unuseful_column_data`資料夾中。  
@@ -32,6 +31,8 @@
 將50個dataset根據檔案名a~z合併成一個完整dataset `fullset_original.txt`。  
 ### Normalization.py  
 讀取完整dataset進行正規化，產生`fullset_zscore.txt`、`fullset_l2.txt`、`fullset_minmax.txt`、`fullset_zscore_mix_l2.txt`。  
+
+## 檢索
 ### pcc_with_avg_acc.py  
 對`fullset_original.txt`、`fullset_zscore.txt`、`fullset_l2.txt`、`fullset_minmax.txt`、`fullset_zscore_mix_l2.txt`進行每張圖片檢索，結果保存在`retrieval_pcc`資料夾中。
 
