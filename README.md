@@ -32,11 +32,11 @@
 ### Normalization.py  
 讀取完整dataset進行正規化，產生`fullset_zscore.txt`、`fullset_l2.txt`、`fullset_minmax.txt`、`fullset_zscore_mix_l2.txt`。  
 
-## 檢索
+## 檢索後端
 ### pcc_with_avg_acc.py  
 對`fullset_original.txt`、`fullset_zscore.txt`、`fullset_l2.txt`、`fullset_minmax.txt`、`fullset_zscore_mix_l2.txt`進行每張圖片檢索，結果保存在`retrieval_pcc`資料夾中。
 
-
+## 檢索系統前端
 
 
 
