@@ -23,7 +23,7 @@
 系統會執行比對程式，挑出最像10名，回傳  
 
 ## 檔案說明
-<img width="100%" src="readme/Normalization.png"/>  
+<img width="600px" src="readme/Normalization.png"/>  
 
 
 ### Remove_Unuseful_Column.py
