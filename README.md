@@ -22,11 +22,17 @@
 使用者可選擇是否正規化，與相似度比對方法，送出查詢  
 系統會執行比對程式，挑出最像10名，回傳  
 
+
+
+
+
+
+
 ## 成員分工
 |成員|分工|
 |:----:|:---:|
 | [@Rex0626](https://github.com/Rex0626)|Cosine Similarity部分 |
 | [@Cecilia1050300](https://github.com/Cecilia1050300) |Euclidean Distance部分 |
-| [@JaxxZu](https://github.com/JaxxZu) |PCC部分 |
+| [@JaxxZu](https://github.com/JaxxZu) |正規化處理dataset、PCC部分 |
 | [@yieie](https://github.com/yieie) |檢索系統 |
 
