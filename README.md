@@ -45,6 +45,7 @@
 ## 檢索系統
 在python環境內下載streamlit套件
 於檔案根目錄(ImageRetrievalSimilarityMeasures)下執行streamlit run demo_view.py
+雲端查看網址：https://demoviewpy-w4gdghgxpcf4rggsv7tp92.streamlit.app/
 
 
 ## 成員分工
