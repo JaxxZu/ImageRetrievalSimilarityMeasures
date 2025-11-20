@@ -11,11 +11,11 @@ __SEARCH_ITSELF__：檢索結果是否包含自己，True為包含自己，False
 """
 
 __DATASET_FILES__ = [
-    "data/fullset_original.txt",
-    "data/fullset_minmax.txt",
-    "data/fullset_l2.txt",
-    "data/fullset_zscore.txt",
-    "data/fullset_zscore_mix_l2.txt"
+    "../fullset_original.txt",
+    "../fullset_minmax.txt",
+    "../fullset_l2.txt",
+    "../fullset_zscore.txt",
+    "../fullset_zscore_mix_l2.txt"
 ]
 
 __SEARCH_ITSELF__ = False
