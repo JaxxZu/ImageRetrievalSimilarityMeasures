@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
 import os
-
-Basic_dir = r"電腦視覺專案圖片\pic\\"
+import re
+Basic_dir = r"電腦視覺專案圖片/pic/"
 
 img_folder = ["AncestorDinoArt", "Archit", "Baseball","Basketball", "Beach", "Billiardsball", "Bus"
           ,"BWimage","Car","Cartoon","Castle","Citynight","ClassicalPainting","Cropcycle", "DeerAntelope"
@@ -201,10 +201,19 @@ def main():
 
     show_home(cal_option=cal_option, option=option, selected_folder=selected_folder)
 
-
+def natural_sort_key(s):
+    return [int(text) if text.isdigit() else text.lower()
+            for text in re.split(r'(\d+)', s)]
 
 if __name__ == "__main__":
     valid_ext = (".png", ".jpg", ".jpeg", ".bmp", ".gif", ".webp")
     for img_dir in img_folder:
-        img_list.append([img for img in os.listdir(Basic_dir+img_dir) if img.lower().endswith(valid_ext)])
+          imgs = [
+              img for img in os.listdir(folder_path)
+              if img.lower().endswith(valid_ext)
+          ]
+          
+          imgs = sorted(imgs, key=natural_sort_key)   # 自然排序
+          
+          img_list.append(imgs)
     main()
