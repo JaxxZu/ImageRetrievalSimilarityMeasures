@@ -37,6 +37,8 @@
 對`fullset_original.txt`、`fullset_zscore.txt`、`fullset_l2.txt`、`fullset_minmax.txt`、`fullset_zscore_mix_l2.txt`進行每張圖片檢索，結果保存在`retrieval_pcc`資料夾中。  
 ### Euclidean_Distance.py
 對`fullset_original.txt`、`fullset_zscore.txt`、`fullset_l2.txt`、`fullset_minmax.txt`、`fullset_zscore_mix_l2.txt`進行每張圖片檢索，結果保存在`retrieval_euclidean`資料夾中。  
+### cosine/cosine_detailed.py
+對`fullset_original.txt`、`fullset_zscore.txt`、`fullset_l2.txt`、`fullset_minmax.txt`、`fullset_zscore_mix_l2.txt`進行每張圖片檢索，結果保存在`cosine/retrieval_euclidean`資料夾中。    
 
 
 
