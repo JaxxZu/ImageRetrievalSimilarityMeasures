@@ -3,3 +3,5 @@
 *.jpeg
 *.png
 Thumbs.db
+
+!電腦視覺專案圖片/pic/*/*.jpg
