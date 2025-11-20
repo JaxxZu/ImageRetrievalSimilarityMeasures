@@ -43,7 +43,8 @@
 
 
 ## 檢索系統
-working
+在python環境內下載streamlit套件
+於檔案根目錄(ImageRetrievalSimilarityMeasures)下執行streamlit run demo_view.py
 
 
 ## 成員分工
